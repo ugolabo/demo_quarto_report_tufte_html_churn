@@ -1,7 +1,9 @@
 # Demo, Quarto
 
 HTML report on a statistical technique using R. Right click to: <a href="https://ugolabo.github.io/demo_quarto_report_tufte_html_churn/" target="_blank">site</a>.  
-This is the 'index.html' file.
+This is the 'index.html' file; using the tufte template.  
+This report provides the comprehensive analysis and methodology supporting the concise dashboard found in the demo_quarto_dashboard_html_churn repo.  
+There are [two ways to publish](#publis) a Quarto document on GitHub.
 
 <img src="demo_report_quarto_tufte_html_churn.png" alt="" width="500px" >
 
@@ -13,3 +15,17 @@ This is the 'index.html' file.
     - Accelerated Failure Time Models like the Weibull AFT model
 - Survival Regression to Predict Customer Churn
     - Proportional Hazards Assumption and the Cox PH model 
+
+## Publish
+
+This repo uses **Option 2**. Build and deployment details can be found in the Actions tab above.
+
+| Feature | Option 1 (Full Workflow) | Option 2 (Static HTML) |
+| :--- | :--- | :--- |
+| **Files on GitHub** | data/ + img/ + renv/ + .github/workflow/publish.yml + .qmd + _quarto.yml + renv.lock + .Rprofile | index.html |
+| **Deployment Time** | Slow (plus changes in Settings > Actions) | Fast |
+| **Updates** | Automatic upon commit (git push, Add file on GitHub or editing via GitHub Codespaces) | Compile locally, upload index.html to GitHub (git push, Add file on GitHub) |
+| **Privacy** | Code and data are on GitHub; the project is reproducible | Only the final result is online; the source project remains private |
+| **Heavy Computations** | Limited by GitHub server resources | Unlimited (processed locally) |
+| **Advantages** | Workflow automation, online editing | Data privacy, simple result sharing |
+| **Web Page Setup** | Settings > Pages, main branch | Settings > Pages, gh-pages branch |
