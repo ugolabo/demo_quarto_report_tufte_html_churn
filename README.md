@@ -1,7 +1,6 @@
 # Demo, Quarto
 
-HTML report on a statistical technique.  
-Right click to: <a href="https://ugolabo.github.io/demo_quarto_report_tufte_html_churn/" target="_blank">site</a>. 
+HTML report on a statistical technique. Right click to: <a href="https://ugolabo.github.io/demo_quarto_report_tufte_html_churn/" target="_blank">site</a>.  
 This is the 'index.html' file.
 
 <img src="demo_report_quarto_tufte_html_churn.png" alt="" width="500px" >
