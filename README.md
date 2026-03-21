@@ -2,7 +2,7 @@
 
 HTML report on a statistical technique using R. Right click to: <a href="https://ugolabo.github.io/demo_quarto_report_tufte_html_churn/" target="_blank">site</a>.  
 This is the 'index.html' file; using the tufte template.  
-This report provides the comprehensive analysis and methodology supporting the concise dashboard found in the demo_quarto_dashboard_html_churn repo.  
+This report provides the full analysis supporting the concise dashboard found in the demo_quarto_dashboard_html_churn repo.  
 There are [two ways to publish](#publish) a Quarto document on GitHub.
 
 <img src="demo_report_quarto_tufte_html_churn.png" alt="" width="500px" >
