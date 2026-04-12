@@ -30,4 +30,4 @@ This repo uses **Option 2**. Build and deployment details can be found in the Ac
 | **Privacy** | Code and data are on GitHub; the project is reproducible | Only the final result is online; the source project remains private |
 | **Heavy Computations** | Limited by GitHub server resources | Unlimited (processed locally) |
 | **Advantages** | Workflow automation, online editing | Data privacy, simple result sharing |
-| **Web Page Setup** | Settings > Pages, main branch | Settings > Pages, gh-pages branch |
+| **Web Page Setup** | Settings > Pages, vary... | Settings > Pages, main branch, / (root) |
